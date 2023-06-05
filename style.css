@@ -384,3 +384,69 @@ nav{
 .post-row a{
     color: #9a9a9a;
 }
+.load-more-btn{
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    background: transparent;
+    border-radius: 4px;
+    color: #626262;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 5px;
+    font-size: 15px;
+}
+
+.settings-menu{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    top: 108%;
+    overflow: hidden;
+    right: 5%;
+    border-radius: 4px;
+    max-height: 0;
+    transition: max-height 0.3s;
+    
+}
+.settings-menu-height{
+    max-height: 450px;
+}
+.user-profile a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #1876f2;
+}
+.settings-menu-inner{
+    padding: 20px;
+}
+.settings-menu hr{
+    border: 0;
+    background: #9a9a9a;
+    height: 1px;
+    margin: 15px 0;
+}
+.settings-links{
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+}
+.settings-links .setting-icon{
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.settings-links a{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    text-decoration: none;
+    justify-content: space-between;
+    color: #626262;
+}
